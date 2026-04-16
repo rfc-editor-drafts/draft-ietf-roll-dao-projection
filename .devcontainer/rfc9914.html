@@ -46,7 +46,7 @@ This document updates RFCs 6550, 6553, and 8138.
     wcwidth 0.6.0
     weasyprint 65.0
 -->
-<link href="1776365100506.xml" rel="alternate" type="application/rfc+xml">
+<link href="1776365474327.xml" rel="alternate" type="application/rfc+xml">
 <link href="#copyright" rel="license">
 <style type="text/css">/*
 
@@ -1957,7 +1957,7 @@ This document updates RFCs 6550, 6553, and 8138.<a href="#section-abstract-1" cl
           <h4 id="name-path">
 <a href="#section-2.4.3" class="section-number selfRef">2.4.3. </a><a href="#name-path" class="section-name selfRef">Path</a>
           </h4>
-<p id="section-2.4.3-1">Quoting (non-normatively) the definition of path in <span><a href="https://www.rfc-editor.org/rfc/rfc1122#section-1.3.3" class="relref">Section 1.3.3</a> of [<a href="#RFC1122" class="cite xref">INT-ARCH</a>]</span>:<a href="#section-2.4.3-1" class="pilcrow">¶</a></p>
+<p id="section-2.4.3-1">Quoting (non-normatively) the definition of path in <span><a href="https://rfc-editor.org/rfc/rfc1122#section-1.3.3" class="relref">Section 1.3.3</a> of [<a href="#RFC1122" class="cite xref">INT-ARCH</a>]</span>:<a href="#section-2.4.3-1" class="pilcrow">¶</a></p>
 <blockquote id="section-2.4.3-2">
     At a given moment, all the IP datagrams from a particular source host to a
     particular destination host will typically traverse the same sequence of
@@ -1966,7 +1966,7 @@ This document updates RFCs 6550, 6553, and 8138.<a href="#section-abstract-1" cl
     directions between a given host pair.<a href="#section-2.4.3-2" class="pilcrow">¶</a>
 </blockquote>
 <p id="section-2.4.3-3">
-    See <span><a href="https://www.rfc-editor.org/rfc/rfc9912#section-3.1.1" class="relref">Section 3.1.1</a> of [<a href="#RFC9912" class="cite xref">RAW-ARCH</a>]</span> for a longer, more modern definition of path.<a href="#section-2.4.3-3" class="pilcrow">¶</a></p>
+    See <span><a href="https://rfc-editor.org/rfc/rfc9912#section-3.1.1" class="relref">Section 3.1.1</a> of [<a href="#RFC9912" class="cite xref">RAW-ARCH</a>]</span> for a longer, more modern definition of path.<a href="#section-2.4.3-3" class="pilcrow">¶</a></p>
 <p id="section-2.4.3-4">
     It follows that the general acceptance of a path is a linear sequence of
     nodes, as opposed to a multi-dimensional graph. In the context of this
@@ -2006,7 +2006,7 @@ This document updates RFCs 6550, 6553, and 8138.<a href="#section-abstract-1" cl
     6TiSCH architecture <span>[<a href="#RFC9030" class="cite xref">RFC9030</a>]</span> and equals that of a recovery graph in the
      RAW architecture <span>[<a href="#RFC9912" class="cite xref">RAW-ARCH</a>]</span>. A Track
     is a networking graph that can be followed to transport packets with
-    equivalent treatment; as opposed to other definitions of a path (see <span><a href="https://www.rfc-editor.org/rfc/rfc1122#section-1.3.3" class="relref">Section 1.3.3</a> of [<a href="#RFC1122" class="cite xref">INT-ARCH</a>]</span> and <span><a href="https://www.rfc-editor.org/rfc/rfc9912#section-3.1.1" class="relref">Section 3.1.1</a> of [<a href="#RFC9912" class="cite xref">RAW-ARCH</a>]</span>,
+    equivalent treatment; as opposed to other definitions of a path (see <span><a href="https://rfc-editor.org/rfc/rfc1122#section-1.3.3" class="relref">Section 1.3.3</a> of [<a href="#RFC1122" class="cite xref">INT-ARCH</a>]</span> and <span><a href="https://rfc-editor.org/rfc/rfc9912#section-3.1.1" class="relref">Section 3.1.1</a> of [<a href="#RFC9912" class="cite xref">RAW-ARCH</a>]</span>,
     a Track is not necessarily linear. It may contain multiple paths that
     may fork and rejoin and that may enable RAW Packet Replication, Elimination, and Ordering Functions (PREOF).<a href="#section-2.4.5-1" class="pilcrow">¶</a></p>
 <p id="section-2.4.5-2">
@@ -2070,7 +2070,7 @@ South East                                   South West
     using the namespace owned by the Track ingress. For Local Instances,
     the TrackID is associated with the IPv6 address of the Track ingress that is
     used as the DODAGID, and together they form a unique identification of the Track
-    (see the definition of DODAGID in <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-2" class="relref">Section 2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>).<a href="#section-2.4.5.1-1" class="pilcrow">¶</a></p>
+    (see the definition of DODAGID in <span><a href="https://rfc-editor.org/rfc/rfc6550#section-2" class="relref">Section 2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>).<a href="#section-2.4.5.1-1" class="pilcrow">¶</a></p>
 </section>
 <section id="section-2.4.5.2">
             <h5 id="name-namespace">
@@ -2170,7 +2170,7 @@ South East                                   South West
 <p id="section-2.4.5.7.2-2">
    If the network is a 6LoWPAN network, the expectation is that the
    SRH is compressed and encoded as a 6LoWPAN Routing Header (6LoRH), as
-   specified in <span><a href="https://www.rfc-editor.org/rfc/rfc8138#section-5" class="relref">Section 5</a> of [<a href="#RFC8138" class="cite xref">RFC8138</a>]</span>.<a href="#section-2.4.5.7.2-2" class="pilcrow">¶</a></p>
+   specified in <span><a href="https://rfc-editor.org/rfc/rfc8138#section-5" class="relref">Section 5</a> of [<a href="#RFC8138" class="cite xref">RFC8138</a>]</span>.<a href="#section-2.4.5.7.2-2" class="pilcrow">¶</a></p>
 <p id="section-2.4.5.7.2-3">
    This specification uses the term "Segment Routing" generically to
    refer to using source routing to hop over segments. As such,
@@ -2577,7 +2577,7 @@ South East                                   South West
 <a href="#section-3.4.2" class="section-number selfRef">3.4.2. </a><a href="#name-tracks-and-rpl-instances" class="section-name selfRef">Tracks and RPL Instances</a>
           </h4>
 <p id="section-3.4.2-1">
-   <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-5.1" class="relref">Section 5.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> describes the RPL Instance and
+   <span><a href="https://rfc-editor.org/rfc/rfc6550#section-5.1" class="relref">Section 5.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> describes the RPL Instance and
    its encoding. There can be up to 128 Global RPL Instances, for which there
    can be one or more DODAGs, and there can be 64 Local RPL Instances, with a
    namespace that is indexed by a DODAGID, where the DODAGID is a Unique Local
@@ -2935,7 +2935,7 @@ As an example, say that A has a packet for F. Using the RIB in <a href="#RIBcase
 <a href="#section-3.5.1.2" class="section-number selfRef">3.5.1.2. </a><a href="#name-external-routes" class="section-name selfRef">External Routes</a>
             </h5>
 <p id="section-3.5.1.2-1">In this example, we consider F and G as destinations that are external to the
-   Track as a DODAG, as discussed in <span><a href="https://www.rfc-editor.org/rfc/rfc9008#section-4.1.1" class="relref">Section 4.1.1</a> of [<a href="#RFC9008" class="cite xref">RFC9008</a>]</span>.
+   Track as a DODAG, as discussed in <span><a href="https://rfc-editor.org/rfc/rfc9008#section-4.1.1" class="relref">Section 4.1.1</a> of [<a href="#RFC9008" class="cite xref">RFC9008</a>]</span>.
    We then apply the directives for encapsulating in that case (see more in <a href="#routing" class="auto internal xref">Section 6.7</a>).<a href="#section-3.5.1.2-1" class="pilcrow">¶</a></p>
 <p id="section-3.5.1.2-2">In this formulation, we set up the protection path explicitly, which creates less
    routing state in intermediate hops at the expense of larger packets to
@@ -3489,7 +3489,7 @@ As an example, say that A has a packet for F. Using the RIB in <a href="#RIBcase
 </div>
 <p id="section-3.5.2.1-5">
     Packets originated at A to E, F, and G could be generated with the RPI and the SRH and no encapsulation.
-    Alternatively, A may generate a native packet to the target and then encapsulate it with an RPI and an SRH indicating the source-routed path leading to E, as it would for a packet that it routes coming from another node. This is effectively the same case as for packets generated by the Root in a RPL network in Non-Storing Mode; see <span><a href="https://www.rfc-editor.org/rfc/rfc9008#section-8.1.3" class="relref">Section 8.1.3</a> of [<a href="#RFC9008" class="cite xref">RFC9008</a>]</span>. The latter is often preferred since it leads to a single code path, and when the destination is F or G, it does not need to understand and process the RPI or the SRH.
+    Alternatively, A may generate a native packet to the target and then encapsulate it with an RPI and an SRH indicating the source-routed path leading to E, as it would for a packet that it routes coming from another node. This is effectively the same case as for packets generated by the Root in a RPL network in Non-Storing Mode; see <span><a href="https://rfc-editor.org/rfc/rfc9008#section-8.1.3" class="relref">Section 8.1.3</a> of [<a href="#RFC9008" class="cite xref">RFC9008</a>]</span>. The latter is often preferred since it leads to a single code path, and when the destination is F or G, it does not need to understand and process the RPI or the SRH.
 
     Either way, the packets to E, F, or G carry an SRH via B and C, and when they reach C, C needs to encapsulate them again
     to add an SRH via D and E.
@@ -4269,7 +4269,7 @@ Ingress                    Segment 5                Egress -- Target
     protection path, respectively.<a href="#section-4.1-1" class="pilcrow">¶</a></p>
 <p id="section-4.1-2">
     The Projected DAO Request (P-DAO-REQ) is a new message detailed in <a href="#P-DAOreq" class="auto internal xref">Section 5.1</a>.
-    As per <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-6" class="relref">Section 6</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>, if a node receives this message and
+    As per <span><a href="https://rfc-editor.org/rfc/rfc6550#section-6" class="relref">Section 6</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>, if a node receives this message and
     it does not understand this new code, it discards the message.
     When the Root initiates communication to a node that it has not communicated
     with before and that it has not ascertained to implement this specification
@@ -4298,7 +4298,7 @@ Ingress                    Segment 5                Egress -- Target
 <a href="#section-4.1.1" class="section-number selfRef">4.1.1. </a><a href="#name-projected-dao-2" class="section-name selfRef">Projected DAO</a>
           </h4>
 <p id="section-4.1.1-1">
-   <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-6" class="relref">Section 6</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> introduces the RPL Control Message
+   <span><a href="https://rfc-editor.org/rfc/rfc6550#section-6" class="relref">Section 6</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> introduces the RPL Control Message
    Options (CMOs), including the RPL Target Option (RTO) and Transit Information Option (TIO), which can be placed in RPL messages such as the DAO. A DAO message signals routing information to one
    or more Targets indicated in the RTOs and provides one and only one via-node in
    the TIO, with the via-node being the tunnel endpoint to reach the targets.<a href="#section-4.1.1-1" class="pilcrow">¶</a></p>
@@ -4319,7 +4319,7 @@ Ingress                    Segment 5                Egress -- Target
 <p id="section-4.1.1-5">
    The 'P' flag is encoded in bit position 2 of the Flags field in the DAO Base Object. The Root <span class="bcp14">MUST</span> set it to 1 in
    a P-DAO message. Otherwise, it <span class="bcp14">MUST</span> be set to 0. It is set to 0 in
-   legacy implementations as specified, respectively, in Sections <a href="https://www.rfc-editor.org/rfc/rfc6550#section-20.11" class="relref">20.11</a> and <a href="https://www.rfc-editor.org/rfc/rfc6550#section-6.4" class="relref">6.4</a> of
+   legacy implementations as specified, respectively, in Sections <a href="https://rfc-editor.org/rfc/rfc6550#section-20.11" class="relref">20.11</a> and <a href="https://rfc-editor.org/rfc/rfc6550#section-6.4" class="relref">6.4</a> of
    <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span>.<a href="#section-4.1.1-5" class="pilcrow">¶</a></p>
 <p id="section-4.1.1-6">
    The P-DAO is a part of control plane signaling and should not be stuck behind high
@@ -4474,9 +4474,9 @@ Ingress                    Segment 5                Egress -- Target
    The SIO is used by a RPL-Aware Node (RAN) to advertise a selection of its
    candidate neighbors as siblings to the Root (see more in <a href="#rplsib" class="auto internal xref">Section 5.4</a>).
    The SIO is placed in DAO messages that are sent directly to the main Root,
-   including multicast DAO (see <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-9.10" class="relref">Section 9.10</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>).<a href="#section-4.1.4-1" class="pilcrow">¶</a></p>
+   including multicast DAO (see <span><a href="https://rfc-editor.org/rfc/rfc6550#section-9.10" class="relref">Section 9.10</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>).<a href="#section-4.1.4-1" class="pilcrow">¶</a></p>
 <p id="section-4.1.4-2">
-   This specification Amends rules 1 and 2 listed in <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-9.10" class="relref">Section 9.10</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> for the multicast DAO operation as follows:<a href="#section-4.1.4-2" class="pilcrow">¶</a></p>
+   This specification Amends rules 1 and 2 listed in <span><a href="https://rfc-editor.org/rfc/rfc6550#section-9.10" class="relref">Section 9.10</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> for the multicast DAO operation as follows:<a href="#section-4.1.4-2" class="pilcrow">¶</a></p>
 <p id="section-4.1.4-3">OLD:<a href="#section-4.1.4-3" class="pilcrow">¶</a></p>
 <blockquote id="section-4.1.4-4">
             <ol start="1" type="1" class="normal type-1" id="section-4.1.4-4.1">
@@ -4531,7 +4531,7 @@ Ingress                    Segment 5                Egress -- Target
 <p id="section-4.1.6-1">
      Sending a packet within a RPL Local Instance requires the presence of the
      abstract RPI described in
-     <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-11.2" class="relref">Section 11.2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> in the outer IPv6 header chain
+     <span><a href="https://rfc-editor.org/rfc/rfc6550#section-11.2" class="relref">Section 11.2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> in the outer IPv6 header chain
      (see <span>[<a href="#RFC9008" class="cite xref">RFC9008</a>]</span>).
      The RPI carries a Local RPLInstanceID that, in association with either the
      source or the destination address in the IPv6 header, indicates the RPL
@@ -4557,7 +4557,7 @@ Ingress                    Segment 5                Egress -- Target
 <a href="#section-4.1.7" class="section-number selfRef">4.1.7. </a><a href="#name-additional-flag-in-the-rpl-" class="section-name selfRef">Additional Flag in the RPL DODAG Configuration Option</a>
           </h4>
 <p id="section-4.1.7-1">
-   The DODAG Configuration option is defined in <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-6.7.6" class="relref">Section 6.7.6</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>. Its purpose is extended to distribute configuration
+   The DODAG Configuration option is defined in <span><a href="https://rfc-editor.org/rfc/rfc6550#section-6.7.6" class="relref">Section 6.7.6</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>. Its purpose is extended to distribute configuration
    information affecting the construction and maintenance of the DODAG, as
    well as operational parameters for RPL on the DODAG, through the DODAG.
 
@@ -4583,13 +4583,13 @@ Ingress                    Segment 5                Egress -- Target
    This specification Amends <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span> to define the new "Projected Routes Support" (D) flag.
    The 'D' flag is encoded in bit position 0 of the reserved Flags in the DODAG
    Configuration option (this is the most significant bit). It is set to 0 in legacy implementations as
-   specified respectively in Sections <a href="https://www.rfc-editor.org/rfc/rfc6550#section-20.14" class="relref">20.14</a> and <a href="https://www.rfc-editor.org/rfc/rfc6550#section-6.7.6" class="relref">6.7.6</a> of <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span>.<a href="#section-4.1.7-3" class="pilcrow">¶</a></p>
+   specified respectively in Sections <a href="https://rfc-editor.org/rfc/rfc6550#section-20.14" class="relref">20.14</a> and <a href="https://rfc-editor.org/rfc/rfc6550#section-6.7.6" class="relref">6.7.6</a> of <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span>.<a href="#section-4.1.7-3" class="pilcrow">¶</a></p>
 <p id="section-4.1.7-4">
    The 'D' flag is set to 1 to indicate that this specification is enabled in
    the network and that the Root will install the requested Tracks when feasible
    upon receiving a P-DAO-REQ message.<a href="#section-4.1.7-4" class="pilcrow">¶</a></p>
 <p id="section-4.1.7-5">
-    <span><a href="https://www.rfc-editor.org/rfc/rfc9008#section-4.1.2" class="relref">Section 4.1.2</a> of [<a href="#RFC9008" class="cite xref">RFC9008</a>]</span> Amends
+    <span><a href="https://rfc-editor.org/rfc/rfc9008#section-4.1.2" class="relref">Section 4.1.2</a> of [<a href="#RFC9008" class="cite xref">RFC9008</a>]</span> Amends
    <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span> to indicate that the definition of the Flags applies
    to MOP values from zero (0) to six (6) only.
    For a MOP value of 7, the implementation <span class="bcp14">MUST</span> consider that the Root
@@ -4618,7 +4618,7 @@ Ingress                    Segment 5                Egress -- Target
         </h3>
 <p id="section-4.2-1">
     "The Routing Protocol for Low-Power and Lossy Networks (RPL) Option
-   for Carrying RPL Information in Data-Plane Datagrams" <span>[<a href="#RFC6553" class="cite xref">RFC6553</a>]</span> describes the RPL Option for use among RPL routers to include the abstract RPI described in <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-11.2" class="relref">Section 11.2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> in data packets.<a href="#section-4.2-1" class="pilcrow">¶</a></p>
+   for Carrying RPL Information in Data-Plane Datagrams" <span>[<a href="#RFC6553" class="cite xref">RFC6553</a>]</span> describes the RPL Option for use among RPL routers to include the abstract RPI described in <span><a href="https://rfc-editor.org/rfc/rfc6550#section-11.2" class="relref">Section 11.2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span> in data packets.<a href="#section-4.2-1" class="pilcrow">¶</a></p>
 <p id="section-4.2-2">
 
     The RPL Option is commonly referred to as the RPI even though the RPI is really the abstract information that is transported in the RPL Option. <span>[<a href="#RFC9008" class="cite xref">RFC9008</a>]</span> updated the Option Type from 0x63 to 0x23.<a href="#section-4.2-2" class="pilcrow">¶</a></p>
@@ -4684,7 +4684,7 @@ Ingress                    Segment 5                Egress -- Target
     introduces a new 6LoWPAN <span>[<a href="#RFC6282" class="cite xref">RFC6282</a>]</span> dispatch type for use in 6LoWPAN
     route-over topologies, which initially covers the needs of RPL data packet
     compression.<a href="#section-4.3-1" class="pilcrow">¶</a></p>
-<p id="section-4.3-2"><span><a href="https://www.rfc-editor.org/rfc/rfc8138#section-4" class="relref">Section 4</a> of [<a href="#RFC8138" class="cite xref">RFC8138</a>]</span> presents the generic formats of
+<p id="section-4.3-2"><span><a href="https://rfc-editor.org/rfc/rfc8138#section-4" class="relref">Section 4</a> of [<a href="#RFC8138" class="cite xref">RFC8138</a>]</span> presents the generic formats of
     the 6LoRH in two forms: Elective, which can
     be ignored and skipped when the router does not understand it, and
     Critical, which causes the packet to be dropped when the router cannot
@@ -4697,7 +4697,7 @@ Ingress                    Segment 5                Egress -- Target
     Header (SRH-6LoRH) on behalf of the Track ingress, which avoids the
     complexities of optimizing SRH-6LoRH encoding in constrained code.
     In that case, the SRH-6LoRH is signaled in the NSM-VIO, and it is expressed in a fashion that can be placed as is in the packet encapsulation by the Track ingress.<a href="#section-4.3-3" class="pilcrow">¶</a></p>
-<p id="section-4.3-4"><span><a href="https://www.rfc-editor.org/rfc/rfc8138#section-6.3" class="relref">Section 6.3</a> of [<a href="#RFC8138" class="cite xref">RFC8138</a>]</span> presents the formats of the
+<p id="section-4.3-4"><span><a href="https://rfc-editor.org/rfc/rfc8138#section-6.3" class="relref">Section 6.3</a> of [<a href="#RFC8138" class="cite xref">RFC8138</a>]</span> presents the formats of the
     6LoWPAN RH of type 5 (RPI-6LoRH) that compresses the RPI for
     normal RPL operation. The format of the RPI-6LoRH is not suited for
     P-Routes since the 'O', 'R', and 'F' flags are not used and the Rank is unknown and
@@ -4842,7 +4842,7 @@ Ingress                    Segment 5                Egress -- Target
           <dd style="margin-left: 1.5em" id="section-5.1-6.12">
             <p id="section-5.1-6.12.1">8-bit wrapping sequence number,
               obeying the operation in
-              <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-7.2" class="relref">Section 7.2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>.
+              <span><a href="https://rfc-editor.org/rfc/rfc6550#section-7.2" class="relref">Section 7.2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>.
               The PDRSequence is used to correlate a PDR-ACK message with the
               P-DAO-REQ message that triggered it. It is incremented at each P-DAO-REQ
               message and echoed in the PDR-ACK by the Root.<a href="#section-5.1-6.12.1" class="pilcrow">¶</a></p>
@@ -5017,7 +5017,7 @@ Ingress                    Segment 5                Egress -- Target
           <dd class="break"></dd>
 <dt id="section-5.3-8.3">Option Length:</dt>
           <dd style="margin-left: 1.5em" id="section-5.3-8.4">8-bit unsigned integer, representing the length in octets of the option, not including the Option
-              Type and Length fields (see <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-6.7.1" class="relref">Section 6.7.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>);
+              Type and Length fields (see <span><a href="https://rfc-editor.org/rfc/rfc6550#section-6.7.1" class="relref">Section 6.7.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>);
               the Option Length is variable, depending on the number of Via
               Addresses and the compression applied.<a href="#section-5.3-8.4" class="pilcrow">¶</a>
 </dd>
@@ -5042,7 +5042,7 @@ Ingress                    Segment 5                Egress -- Target
           <dd style="margin-left: 1.5em" id="section-5.3-8.10">
             <p id="section-5.3-8.10.1">8-bit unsigned integer.
               The Segment Sequence obeys the operation in
-              <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-7.2" class="relref">Section 7.2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>, and the initial value is 255.<a href="#section-5.3-8.10.1" class="pilcrow">¶</a></p>
+              <span><a href="https://rfc-editor.org/rfc/rfc6550#section-7.2" class="relref">Section 7.2</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>, and the initial value is 255.<a href="#section-5.3-8.10.1" class="pilcrow">¶</a></p>
 <p id="section-5.3-8.10.2">
               When the
               Root of the DODAG needs to refresh or update a segment in a Track,
@@ -5176,7 +5176,7 @@ Ingress                    Segment 5                Egress -- Target
           <dd class="break"></dd>
 <dt id="section-5.4-6.3">Option Length:</dt>
           <dd style="margin-left: 1.5em" id="section-5.4-6.4">8-bit unsigned integer, representing the length in octets of the option, not including the Option
-              Type and Length fields (see <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-6.7.1" class="relref">Section 6.7.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>).<a href="#section-5.4-6.4" class="pilcrow">¶</a>
+              Type and Length fields (see <span><a href="https://rfc-editor.org/rfc/rfc6550#section-6.7.1" class="relref">Section 6.7.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>).<a href="#section-5.4-6.4" class="pilcrow">¶</a>
 </dd>
           <dd class="break"></dd>
 <dt id="section-5.4-6.5">Reserved for Flags:</dt>
@@ -5207,7 +5207,7 @@ Ingress                    Segment 5                Egress -- Target
 <dt id="section-5.4-6.13">Comp.:</dt>
           <dd style="margin-left: 1.5em" id="section-5.4-6.14">Compression Type; a 3-bit unsigned integer. This is the
               SRH-6LoRH Type as defined in Figure 7 in
-              <span><a href="https://www.rfc-editor.org/rfc/rfc8138#section-5.1" class="relref">Section 5.1</a> of [<a href="#RFC8138" class="cite xref">RFC8138</a>]</span> that corresponds to the compression used
+              <span><a href="https://rfc-editor.org/rfc/rfc8138#section-5.1" class="relref">Section 5.1</a> of [<a href="#RFC8138" class="cite xref">RFC8138</a>]</span> that corresponds to the compression used
               for the Sibling Address and its DODAGID if present. The Compression
               reference is the Root of the main DODAG.<a href="#section-5.4-6.14" class="pilcrow">¶</a>
 </dd>
@@ -5274,7 +5274,7 @@ Ingress                    Segment 5                Egress -- Target
 
    To avoid the need of Path MTU Discovery by 6LoWPAN endpoints,
    6LoWPAN links are normally defined
-   with an MTU of 1280 (see <span><a href="https://www.rfc-editor.org/rfc/rfc4944#section-4" class="relref">Section 4</a> of [<a href="#RFC4944" class="cite xref">6LoWPAN</a>]</span>).
+   with an MTU of 1280 (see <span><a href="https://rfc-editor.org/rfc/rfc4944#section-4" class="relref">Section 4</a> of [<a href="#RFC4944" class="cite xref">6LoWPAN</a>]</span>).
    Injecting packets in a Track typically involves an IP-in-IP encapsulation and
    additional IPv6 extension headers. This may cause fragmentation if the
    resulting packets exceed the MTU that is defined for the RPL domain.<a href="#section-6.1-1" class="pilcrow">¶</a></p>
@@ -5354,7 +5354,7 @@ Ingress                    Segment 5                Egress -- Target
      complement the routing topology.<a href="#section-6.3-3.1.2" class="pilcrow">¶</a></p>
 <p id="section-6.3-3.1.3">
      When adding a P-Route to the RPL main DODAG, the main Root <span class="bcp14">MUST</span> set the
-     RPLInstanceID field of the P-DAO Base Object (see <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-6.4.1" class="relref">Section 6.4.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>) to the RPLInstanceID of the main DODAG, and it <span class="bcp14">MUST NOT</span>
+     RPLInstanceID field of the P-DAO Base Object (see <span><a href="https://rfc-editor.org/rfc/rfc6550#section-6.4.1" class="relref">Section 6.4.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>) to the RPLInstanceID of the main DODAG, and it <span class="bcp14">MUST NOT</span>
      use the DODAGID field. A P-Route provides a longer match to the Target
      Address than the default route via the main Root, so it is preferred.<a href="#section-6.3-3.1.3" class="pilcrow">¶</a></p>
 </li>
@@ -5364,14 +5364,14 @@ Ingress                    Segment 5                Egress -- Target
      independent routing topology (say, Traffic Engineered) to achieve
      particular routing characteristics from ingress to egress endpoints.
      To achieve this, the main Root <span class="bcp14">MUST</span> set up a Local RPL Instance (see
-     <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-5" class="relref">Section 5</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>), and the Local RPLInstanceID serves
+     <span><a href="https://rfc-editor.org/rfc/rfc6550#section-5" class="relref">Section 5</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>), and the Local RPLInstanceID serves
      as the TrackID.
      The TrackID <span class="bcp14">MUST</span> be unique for the IPv6 ULA or GUA of the Track ingress
      that serves as the DODAGID for the Track.<a href="#section-6.3-3.2.1" class="pilcrow">¶</a></p>
 <p id="section-6.3-3.2.2">
      This way, a Track is uniquely identified by the tuple (DODAGID, TrackID)
      where the TrackID is always represented with the 'D' flag set to 0 (see
-     also <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-5.1" class="relref">Section 5.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>), indicating that when used in an RPI, the source address of the IPv6 packet signals the DODAGID.<a href="#section-6.3-3.2.2" class="pilcrow">¶</a></p>
+     also <span><a href="https://rfc-editor.org/rfc/rfc6550#section-5.1" class="relref">Section 5.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>), indicating that when used in an RPI, the source address of the IPv6 packet signals the DODAGID.<a href="#section-6.3-3.2.2" class="pilcrow">¶</a></p>
 <p id="section-6.3-3.2.3">
      The P-DAO Base Object <span class="bcp14">MUST</span> indicate the tuple (DODAGID, TrackID) that
      identifies the Track as shown in <a href="#p-dao-fmt" class="auto internal xref">Figure 8</a>, and the
@@ -5390,7 +5390,7 @@ Ingress                    Segment 5                Egress -- Target
      a collision of the main Root and the Track ingress picking the same value
      at the same time, it is <span class="bcp14">RECOMMENDED</span> that the Track ingress starts
      allocating the ID value of the Local RPLInstanceID (see
-     <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-5.1" class="relref">Section 5.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>) used as TrackIDs with the value 0 incrementing,
+     <span><a href="https://rfc-editor.org/rfc/rfc6550#section-5.1" class="relref">Section 5.1</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>) used as TrackIDs with the value 0 incrementing,
      while the Root starts with 63 decrementing.<a href="#section-6.3-3.2.5" class="pilcrow">¶</a></p>
 </li>
         </ul>
@@ -5438,7 +5438,7 @@ Ingress                    Segment 5                Egress -- Target
     The P-DAO signals a collection of Targets in one or more RTOs. Those Targets can be reached via a sequence of routers indicated in a VIO.<a href="#section-6.4.1-1" class="pilcrow">¶</a></p>
 <p id="section-6.4.1-2">
     Like a classical DAO message, a P-DAO causes a change of state only if it is
-    "new" per Section <a href="https://www.rfc-editor.org/rfc/rfc6550#section-9.2.2" class="relref">9.2.2</a> ("Generation of DAO Messages") of the RPL specification <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span>; this is determined using
+    "new" per Section <a href="https://rfc-editor.org/rfc/rfc6550#section-9.2.2" class="relref">9.2.2</a> ("Generation of DAO Messages") of the RPL specification <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span>; this is determined using
     the Segment Sequence information from the VIO as opposed to the Path
     Sequence from a TIO. Also, a Segment Lifetime of 0 in a VIO indicates that the P-Route associated to the segment is to be removed. There are two Modes
     of operation for the P-Routes: Storing and Non-Storing.<a href="#section-6.4.1-2" class="pilcrow">¶</a></p>
@@ -5895,7 +5895,7 @@ Ingress                    Segment 5                Egress -- Target
 <p id="section-6.7-11">In case of a permanent forwarding error along a source route path, the
     node that fails to forward <span class="bcp14">SHOULD</span> send an ICMP error with the code "Error
     in Source Routing Header" back to the source of the packet, as described
-    in <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-11.2.2.3" class="relref">Section 11.2.2.3</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>. Upon receiving this message, the
+    in <span><a href="https://rfc-editor.org/rfc/rfc6550#section-11.2.2.3" class="relref">Section 11.2.2.3</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>. Upon receiving this message, the
     encapsulating node <span class="bcp14">SHOULD</span> stop using the source route path for a
     reasonable period of time, which depends on the deployment, and
     it <span class="bcp14">SHOULD</span> send an ICMP message with the code "Error in P-Route" to the
@@ -6045,7 +6045,7 @@ extends beyond LLNs to a generic IP network. RPL requires fewer resources
    than alternative IGPs such as OSPF, IS-IS, the Enhanced Interior Gateway Routing Protocol (EIGRP), BABEL, or RIP when using routing stretch rather than the shortest path routes to a destination that those protocols compute.
    P-Routes add the capability to install the shortest
    and/or constrained routes to special destinations as discussed in
-   Appendix <a href="https://www.rfc-editor.org/rfc/rfc8994#appendix-A.9.4" class="relref">A.9.4</a> of "An Autonomic Control Plane (ACP)" <span>[<a href="#RFC8994" class="cite xref">RFC8994</a>]</span>.<a href="#section-7.1-3" class="pilcrow">¶</a></p>
+   Appendix <a href="https://rfc-editor.org/rfc/rfc8994#appendix-A.9.4" class="relref">A.9.4</a> of "An Autonomic Control Plane (ACP)" <span>[<a href="#RFC8994" class="cite xref">RFC8994</a>]</span>.<a href="#section-7.1-3" class="pilcrow">¶</a></p>
 <p id="section-7.1-4">
    In a powered and wired network, when enough memory to store the needed
    routes is available, the RPL Storing Mode proposes a better trade-off than
@@ -6084,7 +6084,7 @@ extends beyond LLNs to a generic IP network. RPL requires fewer resources
    The TIO is formed as in Storing Mode, and the Parent Address is not present.
    The Path Sequence and Path Lifetime fields
    are aligned with the values used in the Address Registration of the node(s) advertised in the SIO, as explained in
-   <span><a href="https://www.rfc-editor.org/rfc/rfc9010#section-9.1" class="relref">Section 9.1</a> of [<a href="#RFC9010" class="cite xref">RFC9010</a>]</span>.
+   <span><a href="https://rfc-editor.org/rfc/rfc9010#section-9.1" class="relref">Section 9.1</a> of [<a href="#RFC9010" class="cite xref">RFC9010</a>]</span>.
    Having similar values in all  nodes allows factorizing the TIO for multiple
    SIOs as done in <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span>.<a href="#section-7.1-9.2" class="pilcrow">¶</a>
 </li>
@@ -6316,9 +6316,9 @@ that encapsulates the RPL Instance is not the Root.
  The LLN nodes depend on the RPL Root and RANs for their operation.
  A trust model is necessary to ensure that the right devices are
  acting in these roles, avoiding sinkhole attacks (as is done in
-   <span><a href="https://www.rfc-editor.org/rfc/rfc7416#section-7" class="relref">Section 7</a> of [<a href="#RFC7416" class="cite xref">RFC7416</a>]</span>). This trust model could be,
+   <span><a href="https://rfc-editor.org/rfc/rfc7416#section-7" class="relref">Section 7</a> of [<a href="#RFC7416" class="cite xref">RFC7416</a>]</span>). This trust model could be,
    at a minimum, based on a Layer 2 secure joining and link-layer security.
-   This is a generic 6LoWPAN requirement; see Req-5.1 in <span><a href="https://www.rfc-editor.org/rfc/rfc8505#appendix-B.5" class="relref">Appendix B.5</a> of [<a href="#RFC8505" class="cite xref">RFC8505</a>]</span>.<a href="#section-10-2" class="pilcrow">¶</a></p>
+   This is a generic 6LoWPAN requirement; see Req-5.1 in <span><a href="https://rfc-editor.org/rfc/rfc8505#appendix-B.5" class="relref">Appendix B.5</a> of [<a href="#RFC8505" class="cite xref">RFC8505</a>]</span>.<a href="#section-10-2" class="pilcrow">¶</a></p>
 <p id="section-10-3">
     In a general manner, the Security Considerations in <span>[<a href="#RFC6550" class="cite xref">RPL</a>]</span>
     and <span>[<a href="#RFC7416" class="cite xref">RFC7416</a>]</span> apply to this specification as well.
@@ -6863,7 +6863,7 @@ that encapsulates the RPL Instance is not the Root.
         </h3>
 <p id="section-11.13-1">
     IANA has updated the "Destination Advertisement Object (DAO) Flags"
-    registry, created in <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-20.11" class="relref">Section 20.11</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>, under the
+    registry, created in <span><a href="https://rfc-editor.org/rfc/rfc6550#section-20.11" class="relref">Section 20.11</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>, under the
     "Routing Protocol for Low Power and Lossy Networks (RPL)" registry group <span>[<a href="#IANA-RPL" class="cite xref">IANA-RPL</a>]</span> as
     indicated in <a href="#iana-P-DAOtbl" class="auto internal xref">Table 31</a> (see more in <a href="#extP-DAO" class="auto internal xref">Section 4.1.1</a>):<a href="#section-11.13-1" class="pilcrow">¶</a></p>
 <span id="name-new-destination-advertiseme"></span><div id="iana-P-DAOtbl">
@@ -6895,7 +6895,7 @@ that encapsulates the RPL Instance is not the Root.
         <h3 id="name-destination-advertisement-ob">
 <a href="#section-11.14" class="section-number selfRef">11.14. </a><a href="#name-destination-advertisement-ob" class="section-name selfRef">Destination Advertisement Object Acknowledgment Flag</a>
         </h3>
-<p id="section-11.14-1"> IANA has updated the "Destination Advertisement Object (DAO) Acknowledgment Flags" registry, created in <span><a href="https://www.rfc-editor.org/rfc/rfc6550#section-20.12" class="relref">Section 20.12</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>, under the "Routing Protocol for Low Power and Lossy Networks (RPL)" registry group <span>[<a href="#IANA-RPL" class="cite xref">IANA-RPL</a>]</span> as indicated in <a href="#iana-P-DAO-ACKtbl" class="auto internal xref">Table 32</a> (see
+<p id="section-11.14-1"> IANA has updated the "Destination Advertisement Object (DAO) Acknowledgment Flags" registry, created in <span><a href="https://rfc-editor.org/rfc/rfc6550#section-20.12" class="relref">Section 20.12</a> of [<a href="#RFC6550" class="cite xref">RPL</a>]</span>, under the "Routing Protocol for Low Power and Lossy Networks (RPL)" registry group <span>[<a href="#IANA-RPL" class="cite xref">IANA-RPL</a>]</span> as indicated in <a href="#iana-P-DAO-ACKtbl" class="auto internal xref">Table 32</a> (see
     more in <a href="#extP-DAO-ACK" class="auto internal xref">Section 4.1.2</a>):<a href="#section-11.14-1" class="pilcrow">¶</a></p>
 <span id="name-new-destination-advertisemen"></span><div id="iana-P-DAO-ACKtbl">
 <table class="center" id="table-32">
